@@ -10,7 +10,7 @@ The result of the program is based on the following prerequisites:
 Run the test cases for testing the work of our algorithm under three different circumstances:
 
 ~~~
-cd ./APP_openhouseAI
+cd ./Search-Text
 
 python3 tests/test_algorithm.py
 
@@ -20,7 +20,7 @@ python3 tests/test_algorithm.py
 Run it locally:
 	
 ~~~~
-cd ./APP_openhouseAI
+cd ./Search-Text
 
 pip3 install -r requirements.txt
 
@@ -32,7 +32,7 @@ Run by built an image from the Dockerfile(for deployment):
 	
 ~~~~
 
-cd ./APP_openhouseAI
+cd ./Search-Text
 
 docker build -t flask-search-app:latest .
 
